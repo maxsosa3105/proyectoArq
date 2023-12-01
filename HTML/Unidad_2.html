@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2 </title>
+    <h1>ARQUITECTURA DE COMPUTADORAS</h1>
+    <style>
+        h1{
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        body
+        {
+            background-color: salmon;
+        }
+
+        h2
+        {
+            text-align: center;
+        }
+
+        .contenedor1
+        {
+            text-align: justify;
+            background-color: white;
+        }
+
+        .imagen
+        {
+            padding: 10px;
+            margin: 10px;
+            margin-left: 450px;
+        }
+
+        .hipertextos
+        {
+            text-align: center;
+            background-color: white;
+        }
+
+        .nom
+        {
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor1">
+        <h2>UNIDAD 2</h2>
+        <p>
+            <b>ESTRUCTURA Y FUNCIONAMIENTO DE LA CPU</b><br>
+            <br>
+            <b>ORGANIZACION DEL PROCESADOR</b><br>
+            Un procesador, incluye tanto registros visibles por el usuario como registros de 
+            control/estado. Los registros visibles por el usuario pueden ser de uso general o 
+            tener una utilidad especial, mientras que los registros de control y estado se usan 
+            para controlar el funcionamiento del procesador, un claro ejemplo es el contador de programa.
+            Los procesadores utilizan la segmentación de instrucciones para acelerar la ejecución.<br>
+            <br>
+            <b>ESTRUCTURA DE REGISTROS</b><br>
+            El Registro está organizado en una estructura jerárquica compuesta por subárboles con 
+            sus respectivas claves, subclaves y entradas. El contenido del Registro puede variar considerablemente de un equipo a otro, en función 
+            de los dispositivos, servicios y programas instalados en cada equipo. Las claves pueden contener subclaves que, a su vez, pueden contener otras subclaves. 
+            Aunque la mayor parte de la información del Registro se almacena en disco y se 
+            considera permanente, algunos datos almacenados en claves volátiles se sobrescriben 
+            cada vez que se inicia el sistema operativo.<br>
+            <br>
+            <b>REGISTRO DE CONTROL Y DE ESTADOS</b><br>
+            Hay diversos registros del procesador que se emplean para controlar su funcionamiento. La mayoría de ellos, en la mayor parte de las máquinas, no son 
+            visibles por el usuario. Algunos de ellos pueden ser visibles por ciertas 
+            instrucciones máquina ejecutadas en un modo de controlo de sistema operativo.
+            Naturalmente, máquinas diferentes tendrán distintas organizaciones de registros y 
+            usarán distinta terminología. A continuación se presenta una lista razonablemente 
+            completa de tipos de registros, con una breve descripción.
+            <ul>
+                <li>Contador de programa (Program Counter, PC): contiene la dirección
+                    de la instrucción a captar
+                </li>
+                <li>
+                    Registro de instrucción (lnstruction Register, IR): contiene la 
+                    instrucción captada más recientemente.
+                </li>
+                <li>
+                    Registro de dirección de memoria (Memory Address Register, MAR): 
+                    contiene la dirección de una posición de memoria.
+                </li>
+                <li>
+                    Registro intermedio de memoria (Memory Buffer Register, MBR): 
+                    contiene la palabra de datos a escribir en memoria o la palabra leída 
+                    más recientemente.
+                </li>
+            </ul>
+            Los cuatro registros que se acaban de mencionar se usan para la transferencia de 
+            datos entre el procesador y la memoria. Dentro del procesador, los datos tienen 
+            que ofrecerse a la ALU para su procesamiento.<br>
+            <br>
+            <b>CICLO DE FETCH-DECODE-EXECUTE</b><br>
+            Un ciclo de instrucción (también llamado ciclo de fetch-and-execute o ciclo de fetch-decode-execute en inglés) es el período que tarda la unidad central de 
+            proceso (CPU) en ejecutar una instrucción delenguaje máquina. Comprende una secuencia de acciones determinada que debe llevar a cabo la 
+            CPU para ejecutar cada instrucción en un programa. Cada instrucción del juego de instrucciones de una CPU puede requerir diferente número de ciclos de instrucción 
+            para su ejecución. Un ciclo de instrucción está formado por uno o más ciclos maquina.<br>
+            <br>
+            <b>SEGMENTACION DE INSTRUCCIONES</b><br>
+            La segmentación de instrucciones es similar al uso de una cadena de montaje en 
+            una fábrica de manufacturación. En las cadenas de montaje, el producto pasa a 
+            través de varias etapas de producción antes de tener el producto terminado. Cada 
+            etapa o segmento de la cadena está especializada en un área específica de la 
+            línea de producción y lleva a cabo siempre la misma actividad. Esta tecnología es 
+            aplicada en el diseño de procesadores eficientes.<br>
+            A estos procesadores se les conoce como pipeline processors. Estos están 
+            compuestos por una lista de segmentos lineales y secuenciales en donde cada 
+            segmento lleva a cabo una tarea o un grupo de tareas computacionales. Los datos 
+            que provienen del exterior se introducen en el sistema para ser procesados.
+        </p>
+        <div class="imagen">
+            <img src="C:\Users\maxso\OneDrive\Escritorio\Pagina_Arquitectura\imgs\micro.jpg" width="300" height="300">
+        </div>
+    </div>
+    <div class="hipertextos">
+        <div class="U1">
+            <p><a href="C:\Users\maxso\OneDrive\Escritorio\Pagina_Arquitectura\HTML\index.html">Unidad 1</a></p>
+        </div>
+        <div class="U3">
+            <p><a href="C:\Users\maxso\OneDrive\Escritorio\Pagina_Arquitectura\HTML\Unidad_3.html">Unidad 3</a></p>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="nom">
+        <p> L20051262@saltillo.tecnm.mx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://www.facebook.com/TecNMcampusSaltillo" target="_blank"> <i class="fa-brands fa-facebook"></i> &nbsp; TECNM Instituto Tecnológico de Saltillo  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+        <p> Autor: Sosa Menchaca Maximiliano &nbsp;&nbsp;&nbsp; Materia:Arquitectura de Computadoras 16:00 - 17:00 hrs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matrícula: 20051262</p>
+    </div>
+</footer>
+</html>

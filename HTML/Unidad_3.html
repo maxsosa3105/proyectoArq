@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIDAD 3</title>
+    <h1>ARQUITECTURA DE COMPUTADORAS</h1>
+    <style>
+        h1{
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h2
+        {
+            text-align: center;
+        }
+
+        body
+        {
+            background-color: salmon;
+        }
+
+        .contenedor
+        {
+            text-align: justify;
+            background-color: white;
+        }
+
+        .imagen
+        {
+            padding: 10px;
+            margin: 10px;
+            margin-left: 450px;
+        }
+
+        .hipertextos
+        {
+            text-align: center;
+            background-color: white;
+        }
+
+        .nom
+        {
+            background-color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>UNIDAD 3</h2>
+        <p>
+            <b>SELECCION DE COMPONENTES PARA ENSAMBLE DE EQUIPO DE COMPUTADORAS</b><br>
+            <br>
+            <b>CHIPSET</b><br>
+            Un chipset (traducido como circuito integrado auxiliar) es el conjunto de circuitos 
+            integrados diseñados con base a la arquitectura de un procesador (en algunos 
+            casos, diseñados como parte integral de esa arquitectura), permitiendo que ese 
+            tipo de procesadores funcionen en una placa base. Sirven de puente de 
+            comunicación con el resto de componentes de la placa, como son la memoria, 
+            las tarjetas de expansión, los puertos USB, ratón, teclado, etc.<br>
+            El chipset determina muchas de las características de una placa base y por lo 
+            general la referencia de la misma está relacionada con la del chipset. 
+            A diferencia del microcontrolador, el procesador no tiene mayor funcionalidad sin 
+            el soporte de un chipset: la importancia del mismo ha sido relegada a un segundo 
+            plano por las estrategias de marketing.<br>
+            <br>
+            <b>APLICACIONES</b><br>
+            El Chipset es el que hace posible que la placa base funcione como eje del 
+            sistema, dando soporte a varios componentes e interconectándolos de forma que 
+            se comuniquen entre ellos haciendo uso de diversos buses. Es uno de los pocos 
+            elementos que tiene conexión directa con el procesador, gestiona la mayor parte 
+            de la información que entra y sale por el bus principal del procesador, del sistema 
+            de vídeo y muchas veces de la memoria RAM.<br>
+            En el caso de los computadores PC, es un esquema de arquitectura abierta que 
+            establece modularidad: el Chipset debe tener interfaces estándar para los demás 
+            dispositivos. Esto permite escoger entre varios dispositivos estándar, por ejemplo 
+            en el caso de los buses de expansión, algunas tarjetas madre pueden tener 
+            bus PCI-Express y soportar diversos tipos de tarjetas de distintos anchos de bus (1x, 8x, 16x). 
+            En el caso de equipos portátiles o de marca, el chipset puede ser diseñado a la 
+            medida y aunque no soporte gran variedad de tecnologías, presentará alguna 
+            interfaz de dispositivo.<br>
+            <br>
+            <b>AMBIENTES DE SERVICIO</b><br>
+            La terminología de los integrados ha cambiado desde que se creó el concepto del 
+            chipset a principio de los años 1990, pero todavía existe equivalencia haciendo 
+            algunas aclaraciones:
+            <ul>
+                <li>
+                    El puente norte, northbridge, MCH (memory controller hub) o GMCH (graphic 
+                    MCH), se usa como puente de enlace entre elmicroprocesador y la memoria. 
+                    Controla las funciones de acceso hacia y entre el microprocesador, la memoria
+                    RAM, el puerto gráficoAGP o el PCI-Express de gráficos, y las comunicaciones 
+                    con el puente sur. Al principio tenía también el control de PCI, pero esa 
+                    funcionalidad ha pasado al puente sur.
+                </li>
+                <li>
+                    El puente sur, southbridge o ICH (input controller hub), controla los dispositivos 
+                    asociados como son la controladora de discos IDE, 
+                    puertos USB, FireWire, SATA, RAID, ranuras PCI, ranura AMR, ranura CNR, 
+                    puertos infrarrojos, disquetera, LAN, PCI-Express 1x y una larga lista de todos 
+                    los elementos que podamos imaginar integrados en la placa madre. Es el 
+                    encargado de comunicar el procesador con el resto de los periféricos.
+                </li>
+            </ul>
+            <br>
+            En la actualidad los principales fabricantes de chipsets son AMD, ATI 
+            Technologies (comprada en 2006 por AMD), Intel, NVIDIA, Silicon Integrated 
+            Systems y VIA Technologies.
+        </p>
+        <div class="imagen">
+            <img src="C:\Users\maxso\OneDrive\Escritorio\Pagina_Arquitectura\imgs\chip.jpg" width="300" height="300">
+        </div>
+    </div>
+    <div class="hipertextos">
+        <div class="U2">
+            <p><a href="C:\Users\maxso\OneDrive\Escritorio\Pagina_Arquitectura\HTML\Unidad_2.html">Unidad 2</a></p>
+        </div>
+        <div class="U4">
+            <p><a href="C:\Users\maxso\OneDrive\Escritorio\Pagina_Arquitectura\HTML\Unidad_4.html">Unidad 4</a></p>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="nom">
+        <p> L20051262@saltillo.tecnm.mx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <a href="https://www.facebook.com/TecNMcampusSaltillo" target="_blank"> <i class="fa-brands fa-facebook"></i> &nbsp; TECNM Instituto Tecnológico de Saltillo  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p>
+        <p> Autor: Sosa Menchaca Maximiliano &nbsp;&nbsp;&nbsp; Materia:Arquitectura de Computadoras 16:00 - 17:00 hrs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matrícula: 20051262</p>
+    </div>
+</footer>
+</html>
